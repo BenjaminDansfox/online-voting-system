@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1QHj_Zmp83EJRmApBczbcCcpGBembl37a
 """
 
-pip install gspread oauth2client streamlit pandas matplotlib
-
 import streamlit as st
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
