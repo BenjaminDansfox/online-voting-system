@@ -27,7 +27,7 @@ client = gspread.authorize(creds)
 
 # Open the spreadsheet
 sheet = client.open("Online Voting System")  # Ensure this is the correct name
-users_sheet = sheet.worksheet("Registered Users")  # Ensure worksheet names are correct
+users_sheet = sheet.worksheet("Registered Voters")  # Ensure worksheet names are correct
 votes_sheet = sheet.worksheet("Votes")
 
 # Get registered users
