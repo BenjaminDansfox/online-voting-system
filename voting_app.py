@@ -33,7 +33,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_dict(credentials, scope)
 client = gspread.authorize(creds)
 
 # Open your voting Google Sheet
-sheet = client.open("VotingSystem").worksheet("Votes")  # Adjust to your actual sheet name
+sheet = client.open("Online Voting System").worksheet("Votes")  # Adjust to your actual sheet name
 
 
 # Load Sheets
